@@ -1,1 +1,8 @@
-api_key: "YOUR_API_KEY_HERE"
+weather_api:
+  base_url: "https://api.openweathermap.org/data/2.5/weather"
+  api_key: "YOUR_API_KEY"
+  city: "Sofia"
+  units: "metric"
+
+database:
+  url: "postgresql://postgres:password@localhost:5432/weatherdb"
